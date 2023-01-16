@@ -32,6 +32,7 @@
 }
 .heading {
   text-transform: uppercase;
+  letter-spacing: 4px;
   color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   font-size: 9rem;
@@ -53,7 +54,7 @@
 section {
   color: white;
   padding: 5rem 0;
-  background-color: black;
+  background-color: rgb(45, 45, 45);
 }
 .bg {
   position: relative;
@@ -63,11 +64,17 @@ section {
   background-size: cover;
   background-position: center;
 }
+
+.secHeading {
+  font-size: 5rem;
+  padding: 0 10rem;
+}
 .para {
   font-size: 1.2rem;
   font-weight: 500;
   color: white;
-  margin: 2rem 0 3rem 0;
+  margin: 5rem 0;
+  padding: 0 10rem;
 }
 .sport-1 {
   background-image: url(./sport-1.jpg);
